@@ -21,7 +21,8 @@
                         stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <p class="lg:text-base text-sm font-semibold text-indigo-950">
-                    Digunakan oleh lebih dari 1.000 unit properti
+                    <!-- Digunakan oleh lebih dari 1.000 unit properti -->
+                     Testing auto deployment
                 </p>
             </div>
             <div>
