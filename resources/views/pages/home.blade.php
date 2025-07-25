@@ -21,15 +21,14 @@
                         stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <p class="lg:text-base text-sm font-semibold text-indigo-950">
-                    <!-- Digunakan oleh lebih dari 1.000 unit properti -->
-                     Testing auto deployment
+                    Digunakan oleh lebih dari 1.000 unit properti
                 </p>
             </div>
             <div>
                 <h1
-                    class="lg:text-[70px] text-[40px] text-indigo-950 font-['Clash_Display'] font-bold leading-none mb-3">
-                    Grow Online<br>
-                    Business Faster.
+                    class="lg:text-[44px] text-[40px] text-indigo-950 font-['Clash_Display'] font-bold leading-none mb-3">
+                    Your partner in<br>
+                    Property Development & Management IT
                 </h1>
                 <p class="text-base leading-loose text-gray-500">
                     We provide a variety of servers to grow your users<br class="lg:block hidden">
@@ -75,14 +74,14 @@
 <section class="brands max-w-6xl mx-auto py-10">
     <div class="flex flex-col gap-y-10 md:px-8 md:gap-y-0 items-center md:flex-row gap-x-10 justify-center">
         <img src="{{ asset('assets/img/landing/logo.png') }}" alt="Landing Logo" class="h-12 w-auto" />
-        <img src="{{ asset('assets/img/landing/logo.png') }}" alt="Landing Logo" class="h-12 w-auto" />
-        <img src="{{ asset('assets/img/landing/logo.png') }}" alt="Landing Logo" class="h-12 w-auto" />
-        <img src="{{ asset('assets/img/landing/logo.png') }}" alt="Landing Logo" class="h-12 w-auto" />
+        <img src="{{ asset('assets/img/landing/residance.png') }}" alt="Landing Logo" class="h-12 w-auto" />
+        <img src="{{ asset('assets/img/landing/marketplace.png') }}" alt="Landing Logo" class="h-12 w-auto" />
+        <img src="{{ asset('assets/img/landing/koperasi.png') }}" alt="Landing Logo" class="h-12 w-auto" />
     </div>
 </section>
 
 <!-- About Us Section -->
-<section class="about-us py-16">
+<section id="about-us" class="about-us py-16">
     <div class="max-w-6xl mx-auto px-4 md:px-8 xl:px-0">
         <!-- Header -->
         <div class="text-center mb-16">
@@ -262,7 +261,7 @@
     </div>
 </section>
 
-<section class="bg-white dark:bg-gray-900">
+<section id="our-team" class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our team</h2>
@@ -595,7 +594,7 @@
     </div>
 </section>
 
-<section class="max-w-6xl mx-auto py-12 md:px-8 px-4 xl:px-0">
+<section id="product" class="max-w-6xl mx-auto py-12 md:px-8 px-4 xl:px-0">
     <div class="flex flex-col md:flex-row gap-y-10 justify-start gap-x-10 lg:gap-x-24">
         <div class="flex items-center flex-col">
             <img src="{{ asset('assets/img/landing/illustration-features.png') }}" class="h-[360px] lg:h-[550px]" alt="">
@@ -755,7 +754,7 @@
     </div>
 </section>
 
-<section id="Projects" class=" w-full flex flex-col py-[100px] bg-[url('../assets/images/background/background1.png')] bg-cover bg-center bg-no-repeat">
+<section id="project" class=" w-full flex flex-col py-[100px] bg-[url('../assets/images/background/background1.png')] bg-cover bg-center bg-no-repeat">
     <div class="flex flex-col gap-[10px] mb-[50px]">
         <h2 class="font-extrabold text-[50px] leading-[70px] text-center text-white">Great Projects</h2>
         <p class="text-lg text-center text-white">Working with awesome team from around the world</p>

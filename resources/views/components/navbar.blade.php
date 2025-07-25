@@ -2,11 +2,11 @@
     <div class="flex flex-row items-center justify-between">
         <img src="{{ asset('assets/img/landing/logo-light.svg') }}" class="h-[42px]" alt="">
         <ul class=" flex-row gap-x-8 lg:flex hidden">
-            <li><a href="#feature" class="text-indigo-950 hover:text-[#15A7BB]">About us</a></li>
-            <li><a href="#showcase" class="text-indigo-950 hover:text-[#15A7BB]">Our Team</a></li>
-            <li><a href="#" class="text-indigo-950 hover:text-[#15A7BB]">Product</a></li>
-            <li><a href="#" class="text-indigo-950 hover:text-[#15A7BB]">Project</a></li>
-            <li><a href="#" class="text-indigo-950 hover:text-[#15A7BB]">Contact</a></li>
+            <li><a href="#about-us" class="text-indigo-950 hover:text-[#15A7BB]">About us</a></li>
+            <li><a href="#our-team" class="text-indigo-950 hover:text-[#15A7BB]">Our Team</a></li>
+            <li><a href="#product" class="text-indigo-950 hover:text-[#15A7BB]">Product</a></li>
+            <li><a href="#project" class="text-indigo-950 hover:text-[#15A7BB]">Project</a></li>
+            <li><a href="#contact" class="text-indigo-950 hover:text-[#15A7BB]">Contact</a></li>
         </ul>
         <div class="flex flex-row gap-x-4">
             @guest
